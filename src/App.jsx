@@ -1,5 +1,6 @@
 import Home from "./Home";
 import Navbar from "./Navbar";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
       <Navbar />
       <Home />
       <Skills />
+      <Projects />
     </>
   );
 }
